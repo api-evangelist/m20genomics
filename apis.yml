@@ -1,7 +1,26 @@
 aid: m20genomics
-name: m20genomics
-description: m20genomics is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/m20genomics.png
+name: M20 Genomics
+description: M20 Genomics is a life-science technology company advancing single-cell and spatial
+  transcriptomics. Its VITA platform delivers single-cell full-length transcriptome sequencing across
+  sample types and species, supported by the VITAcruizer single-cell partitioning system, VITApilote
+  library-preparation kits, and VITAseer bioinformatics software. The company's M20 Seq and M20 Spatial
+  technologies serve basic research (cancer, neurobiology, immunology, developmental biology), clinical
+  research (oncology, reproductive medicine, infectious diseases), and drug development and target
+  screening, including prokaryotic and eukaryotic single-cell RNA sequencing. Surfaced as a portfolio
+  company of Qiming and profiled in the API Evangelist network; it publishes lab instruments, reagent
+  kits, and analysis software rather than a public web API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/m20genomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Genomics
+- Life Sciences
+- Single-Cell Sequencing
+- Spatial Transcriptomics
+- Bioinformatics
+- Biotechnology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/m20genomics-domain-security.yml
 - type: Website
   url: https://m20genomics.com
+- type: Blog
+  url: https://www.m20genomics.com/blog
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
